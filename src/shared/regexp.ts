@@ -1,0 +1,5 @@
+export const regExp = {
+  fullName: new RegExp('^[А-ЯЁ][а-яё]+(\\s[А-ЯЁ][а-яё]+){0,2}$'),
+  phoneNumber: new RegExp('^\\+?[78]\\d{10}$'),
+  email: new RegExp('^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$'),
+};
