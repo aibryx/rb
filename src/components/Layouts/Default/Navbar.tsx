@@ -6,7 +6,7 @@ import { NAV_ITEMS } from '@/consts/navigate';
 export const Navbar = () => {
   return (
     <nav>
-      <Box bg="brand.500" display={{ base: 'none', lg: 'flex' }}>
+      <Box bg="brand.500" display={{ base: 'none', lg: 'flex' }} alignItems="center" py="3">>
         <Container maxW="container.lg">
           <ul>
             <Flex mr="0">
